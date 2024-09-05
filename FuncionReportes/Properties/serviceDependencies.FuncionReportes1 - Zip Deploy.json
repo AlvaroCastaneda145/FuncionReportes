@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/PruebaSenati",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/FuncionReportes1/providers/Microsoft.ServiceLinker/linkers/BlobStorageConnectionString_3D210B46B0, /subscriptions/77ceb0c3-eb10-4990-9d94-6f7a884c9793/resourcegroups/DefaultResourceGroup-CQ/providers/Microsoft.Web/sites/FuncionReportes1/providers/Microsoft.ServiceLinker/linkers/BlobStorageConnectionString_75FDCD24F4",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/blodproducto",
+      "type": "storage.azure",
+      "connectionId": "BlobStorageConnectionString",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/FuncionReportes1/providers/Microsoft.ServiceLinker/linkers/SQLConnectionString_CA2E907598",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/pruebasenati666/databases/Senatiproducto",
+      "type": "mssql.azure",
+      "connectionId": "SQLConnectionString",
+      "dynamicId": null
+    }
+  }
+}

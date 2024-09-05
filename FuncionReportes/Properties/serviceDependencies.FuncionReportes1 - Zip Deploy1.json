@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/blodproducto",
+      "type": "storage.azure",
+      "connectionId": "BlobStorageConnectionString",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/PruebaSenati",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/blodproducto",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/FuncionReportes1/providers/Microsoft.ServiceLinker/linkers/KeyVaultUrl_F72C21E989",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/ClavesProducto",
+      "type": "secrets.keyVault",
+      "connectionId": "KeyVaultUrl",
+      "dynamicId": null
+    }
+  }
+}
